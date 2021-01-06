@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+
+ul li{
+    list-style-type: none;
+}
+.nav-menu{
+    text-decoration: none;
+    float: right;
+    padding-right: 50px;
+    color: #3C3C3C;
+}
+section{
+    height: 600px;
+}
+.nav{
+    height: 50px;
+}
+.half-width h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0px;
+    padding:0px;
+}
+#hello-h1{
+    color:#363958;
+}
+#name-h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #FF8367;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #3E3E3E;
+}
+.half-width img{
+    width: 100%;
+    padding-top: 20px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-image: linear-gradient(45deg, blue, cyan);
+    font-weight: bold;
+}
+.about h2{
+    color: #363958;
+    font-weight: bold;
+    font-size: 45px;
+}
+#download-icon{
+    height: 15px;
+    width: 25px;
+    margin-right:5px;
+}
+.latest-work{
+    background: #E5E5E5;
+    padding:10%;
+}
+.latest-work h2{
+    text-align: center;
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top:0px;
+    padding-bottom: 30px;
+}
+.latest-work h2 span{
+    color: #FF8367;
+}
+.work{
+    width: 31%;
+    height: 374px;
+    background: #FFFFFF;
+    float: left;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    margin-right:2%;
+}
+.work img{
+    width: 90%;
+    height: 50%;
+    padding: 5%;
+}
+.work h3{
+    font-weight: bold;
+    font-size: 24px;
+    color: #363958;
+    padding-left: 5%;
+}
+.work p{
+    padding-left: 5%;
+}
+.experience-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    color: #363958;
+}
+.single-experience{
+    background-color: white;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    width: 40%;
+    height: 24%;
+    margin-bottom: 36px;
+}
+.full-stack{
+    border-bottom: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon, tomato);
+    border-image-slice: 1;
+}
+.single-experience img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+.single-experience h2{
+    display: inline;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+}
+.novice-dev{
+    border-bottom: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.inquiry-header{
+    position: absolute ;
+    display: inline;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin: auto;
+    padding-top: 88px;
+}
+.work-enquiry ul li{
+    display: inline;
+    float: left;
+}
+#inquiry-anchor{
+    position: right;
+    text-decoration: none;
+    float: left;
+    padding-left: 680px;
+    padding-top: 110px;
+    
+}
+.inquiry-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.work-enquiry{
+    background: url("images/Group_33094_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 906px;
+    height: 225px;
+    margin-top: 101px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stay-connected{
+    text-align: center;
+    margin-top: 50px;
+}
+.connected-heading{
+    color: #696871;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.connected-address{
+    font-family: Roboto;
+    color: #363958;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 44px;
+}
+.connected-icons{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
